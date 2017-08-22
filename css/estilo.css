@@ -73,6 +73,9 @@ header {
     padding-top: 100px;
     padding-bottom: 100px; 
 }
+#servicos {
+    text-align: center;
+}
 #contato {
     text-align: center;
     padding-bottom: 100px;
