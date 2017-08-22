@@ -1,0 +1,32 @@
+/*tamanho padrão para tablets*/
+@media only screen and (max-width: 768px){
+
+}
+/*tamanho padrão para smartphones*/
+@media only screen and (max-width: 480px){
+	header {
+		height: 318px;
+		background-size: cover;
+		background-position: 0;
+	}
+	.navbar-brand #logo-img {    
+    	width: 155px;
+    	height: 35px;
+	}
+	#sobre {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+	#servicos {	    
+	    padding-top: 50px;
+	    padding-bottom: 50px; 
+	}
+	#contato {
+	    padding-bottom: 50px;
+	    padding-top: 50px;
+	 }
+	.rodape .col-sm-6 {
+		text-align: center;
+	}
+
+}
