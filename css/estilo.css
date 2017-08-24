@@ -72,8 +72,6 @@ header {
     background-color: rgba(3, 3, 3, 0.05);
     padding-top: 100px;
     padding-bottom: 100px; 
-}
-#servicos {
     text-align: center;
 }
 #contato {
@@ -82,11 +80,6 @@ header {
     padding-top: 100px;
     padding-right: 15px;
     padding-left: 15px;
- }
-.panel {
-    border: 1px solid #34495E;
-    transition: box-shadow 0.5s;
-    padding: 50px 20px;     
  }
 .mensagem .row {
     margin-left: -7px;

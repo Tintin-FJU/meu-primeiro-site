@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+	/**
+	 * função de mudar de pagina suave quando clica em um link
+	 */
+
 	$('.navbar a').click(function(event){
 		event.preventDefault();
 		var id = $(this).attr('href'),
@@ -8,6 +12,10 @@ $(document).ready(function(){
 			scrollTop: targetOffset
 		},900);
 	});
+
+	/**
+	 * Função de ativar animação anime1 e anime2
+	 */
 
 	debounce = function(func, wait, immediate) {
 		var timeout;
